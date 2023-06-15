@@ -1,0 +1,90 @@
+:root
+{
+  --yellow: #F5C32C;
+    --green : #65c54d;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #e8edee;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    /* padding: 0.5rem 3.5rem; */
+    overflow: hidden;
+    color: var(--black);
+       
+}
+.content{
+  padding: 0.5rem 2rem 0 2rem;
+  
+}
+@font-face{
+  font-family: paragraph;
+  src:url('../src/fonts/Gumela\ Regular.otf');
+}
+@font-face{
+  font-family: title;
+  src:url('../src/fonts/title.otf');
+}
+
+p, *{
+  font-family:"paragraph" ;
+  font-weight: normal;
+}
+
+h1, h2{
+  font-family:"title" ;
+  font-weight: normal;
+}
+
+
+body{
+  margin: 0;
+
+}
+
+.button{
+  border-radius: 34px;
+  border: none;
+  color:#fff;
+  font-size: 12px;
+  padding: 10px 36px;
+  background: linear-gradient(180deg, #86e58e 26.71%, #35bb29 99.36%);
+  box-shadow: 0px 2px 24px 3px #0a330a70 ;
+  
+}
+
+  .button:hover{
+    background: #fff;
+    cursor: pointer;
+    color: var(--green);
+    border: 1px solid var(--green);
+    transition: all 1s;
+  }
+
+  .blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    top: 18%;
+    left: 56%;
+    filter: blur(80px);
+  }
+
+  @media screen and (max-width:480px){
+    .App{
+      padding: 0.1rem .1rem;
+    }
+    .content{
+      padding: 0 0;
+    }
+    span{
+      font-size: 2rem;
+    }
+  }

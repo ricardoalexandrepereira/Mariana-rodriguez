@@ -1,0 +1,62 @@
+.portefolio{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    margin-top: -5rem;
+}
+
+.portefolio>:nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.portefolio>:nth-child(2){
+    color: var(--green);
+    font-size: 5.9rem;
+    font-weight:bolder;
+    letter-spacing: 5px;
+    margin-bottom: 2rem;
+}
+.background{
+    background: #fcfcfc00;
+   
+}
+
+.background span{
+    
+display: flex;
+align-items: center;
+justify-content: start;
+margin: 0px;
+padding: 0px;
+background: url("../../img/grass.png") 50%;
+background-size: cover;
+-webkit-text-fill-color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+.portefolio .swiper{
+    overflow: visible!important;
+    
+}
+.portefolio-slider{
+    margin-top: 5rem;
+    width: 100%;
+    
+}
+.portefolio-slider .swiper-slide{
+    width: 2rem;
+   
+}
+.portefolio img{
+    width: 25rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.55));
+    border-radius: 19px;
+    height: 17rem;
+    pointer-events: none;
+}
+

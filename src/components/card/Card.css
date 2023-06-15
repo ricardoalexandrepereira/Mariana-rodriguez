@@ -1,0 +1,25 @@
+.card{
+    width: 10rem;
+    height: 14rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.86);
+    border-left: 7px solid var(--green);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+}
+.card>:nth-child(2){
+    font-size: 2rem;
+    color:var(--green);
+}
+
+.card img{
+    transform: scale(0.6);
+    height: 5rem;
+    
+}

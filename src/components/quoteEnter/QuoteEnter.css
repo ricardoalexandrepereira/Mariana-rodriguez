@@ -1,0 +1,25 @@
+.Quote{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 0 4rem 0 1rem;
+   flex-direction: column;
+    
+}
+.Quote h1{
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: paragraph;
+    max-width: 600px;
+    margin-right: 2rem;
+    line-height: 30px;
+}
+
+.Quote h2{
+    font-size:1rem;
+    color: white;
+}
+
