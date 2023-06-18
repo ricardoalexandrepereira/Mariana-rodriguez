@@ -7,5 +7,9 @@
     height:auto;
     margin: 8rem 0 8rem 0;
     padding: 0 2rem;
+    
 }
 
+.experience .awesome>:nth-child(2){
+    color:#e08181;
+}

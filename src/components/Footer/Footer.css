@@ -3,9 +3,12 @@
     align-items: center;
     margin: -0.5rem -3.5rem;
     position: relative;
-    margin-top: -6rem;
-    
-    position: relative;
+    margin-top: -10rem;
+    height: 30vh;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    margin-top: 2rem;
 }
 
 
@@ -32,4 +35,10 @@
     display: flex;
     gap: 2rem;
     cursor: pointer;
+}
+
+@media screen and (max-width:450px) {
+    .f-icons{
+        display:none;
+    }
 }

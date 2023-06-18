@@ -36,7 +36,7 @@ setTimeout(()=>{
       {
         quote ? <Quote/> 
         :
-        <div className="content">
+        <div className="content" style={{background:"var(--lightgreen)"}}>
       <Navbar />
       <Intro />
       <Services />

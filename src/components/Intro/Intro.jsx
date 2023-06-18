@@ -21,7 +21,7 @@ const Intro = () => {
             <div className="i-name">
                 <span>Hi ! i am</span>
                 <span style={{fontSize:"4rem"}}>{/* <img src={grass} alt="grass" /> */}Mariana</span>
-                <span>Bachelor of Science (BSc) in biotechnology and
+                <span id='present'>Bachelor of Science (BSc) in biotechnology and
                 Postgraduate of Energy & Climate, University of Antwerp 
                 </span>
             </div>

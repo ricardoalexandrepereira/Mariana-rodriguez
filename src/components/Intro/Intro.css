@@ -1,7 +1,8 @@
 .intro{
     display: flex;
     height: 77vh;
-    margin-top: 6rem;
+    margin-top: 2rem;
+    padding: 4rem 3rem 0 3rem;
 }
 .i-left{
     display: flex;
@@ -26,19 +27,20 @@
     font-family: title;
 }
 .i-name>:nth-child(2){
-    color: var(--green);
+    color: var(--lightblue);
     font-weight: bold;
     font-size: 1rem;
     font-family: title;
     margin-top: 10px;
 }
 .i-name>:nth-child(3){
-    color: var(--green);
+   
     font-weight: 100;
     font-size: 16px;
     margin-top: 10px;
-    mix-blend-mode:lighten;
     line-height: 30px;
+    color: var(--black);
+   
 }
 
 .i-button{

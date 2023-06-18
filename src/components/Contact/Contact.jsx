@@ -1,7 +1,9 @@
 import React, {useRef, useState} from 'react'
 import "./Contact.css"
 import emailjs from '@emailjs/browser';
-import LinkedInF from "../../img/linkedinF.png"
+/* import linkedin from "../../img/linkedIN.png" */
+import {FaHtml5} from "react-icons/fa"
+
 
 const Contact = () => {
 
@@ -32,8 +34,13 @@ const Contact = () => {
                     <span style={{fontSize:"3rem"}}> Contact me </span>
                     <span>Marianarodriguez1300@gmail.com </span>
                     <span>+(351) 931937684 </span>
-                
-                    <a style={{paddingTop:"3rem"}} href="https://www.linkedin.com/in/mariana-rodriguez-b990ab15a" target='_blank'><img src={LinkedInF} alt="instagram" /></a>
+            
+                    
+            <a href="https://www.linkedin.com/in/mariana-rodriguez-b990ab15a">
+               {/*  <img src={linkedin} alt="linkedin"/> */}
+                <FaHtml5/>
+            </a>
+                   
                 {/* <div className="blur s-blur1" style={{background: "#35bb299e",left:"45rem",top:"12rem", width:"21rem", height:"11rem", zIndex:"-9"}}></div> */}
             </div>
         </div>

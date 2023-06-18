@@ -1,7 +1,7 @@
 :root
 {
   --yellow: #F5C32C;
-    --green : #65c54d;
+    --green : #0e420e;
     --black : #242D49;
     --gray : #788097;
     --blueCard : #e8edee;
@@ -9,6 +9,9 @@
     --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
     --orangeCard: rgba(252, 166, 31, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --lightgreen: #ceffce;
+    --lightpink:#ffd2f4;
+    --lightblue:#c2c1f7;
 }
 
 .App{
@@ -18,7 +21,7 @@
        
 }
 .content{
-  padding: 0.5rem 2rem 0 2rem;
+  padding: 0.5rem 0 0 0;
   
 }
 @font-face{
@@ -52,7 +55,7 @@ body{
   color:#fff;
   font-size: 12px;
   padding: 10px 36px;
-  background: linear-gradient(180deg, #86e58e 26.71%, #35bb29 99.36%);
+  background: linear-gradient(190deg, var(--black) 1.71%, var(--lightgreen) 99.36%);
   box-shadow: 0px 2px 24px 3px #0a330a70 ;
   
 }

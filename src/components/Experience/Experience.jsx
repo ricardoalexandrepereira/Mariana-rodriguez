@@ -5,6 +5,7 @@ const Experience = () => {
   return (
     <div className="experience" id="Experience">
       <div className="awesome">
+      
         <span>Experience </span>
 
         <span style={{ fontSize: "2rem" }}>
@@ -83,6 +84,7 @@ const Experience = () => {
           plants Stock control and assessment Dispatch production.
         </span>
       </div>
+
       <div className="awesome">
         <span></span>
 
@@ -100,34 +102,42 @@ const Experience = () => {
           greenhouse environment Training of permanent and transitional staff.
         </span>
       </div>
-      <div className="awesome">
-        <span>Education</span>
+      
 
-        <span style={{ fontSize: "2rem" }}>
+      <div>
+      <div className="awesome">
+        <span style={{
+           marginBottom:"2rem" 
+        }}>Education</span>
+
+        <span style={{ fontSize: "1.5rem", marginBottom:"2rem"}}>
         Postgraduate of Energy & Climate, University of Antwerp (Antwerp, Belgium) 
           <br></br>
           <span style={{ fontSize: "1rem" }}>2020–2021 </span>
         </span>
       </div>
+
       <div className="awesome">
         <span></span>
 
-        <span style={{ fontSize: "2rem" }}>
+        <span style={{ fontSize: "1.5rem", marginBottom:"2rem"  }}>
         Workshop on Plant Tissue Culture and Healthy Seedlings, ICDF Fund, Taichung (Taiwan)  
           <br></br>
           <span style={{ fontSize: "1rem" }}>2014–2014 </span>
         </span>
       </div>
+
       <div className="awesome">
         <span></span>
 
-        <span style={{ fontSize: "2rem" }}>
+        <span style={{ fontSize: "1.5rem",  marginBottom:"2rem"  }}>
         Bachelor of Science (BSc) in biotechnology, National University of Tucumán, Tucumán (Argentina)  
           <br></br>
           <span style={{ fontSize: "1rem" }}>2013–2017 </span>
         </span>
       </div>
-
+      
+      </div>
 
     </div>
   );
