@@ -40,7 +40,7 @@ const Contact = () => {
                     <p>+(351) 931937684 </p>
             
                     
-            <a href="https://www.linkedin.com/in/mariana-rodriguez-b990ab15a" target="_blank">
+            <a href="https://www.linkedin.com/in/mariana-rodriguez-b990ab15a" target="_blank" rel="noreferrer">
                {/*  <img src={linkedin} alt="linkedin"/> */}
                 <BsLinkedin size={50} color={"#1106ad"}/>
             </a>
