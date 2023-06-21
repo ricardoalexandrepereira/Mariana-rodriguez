@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
     padding: 0 3rem;
+    z-index: 5;
+    position: relative;
+    
 }
 
 .n-left{

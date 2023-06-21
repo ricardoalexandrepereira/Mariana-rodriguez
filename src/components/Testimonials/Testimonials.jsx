@@ -4,43 +4,358 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg"
-import profilePic2 from "../../img/profile2.jpg"
-import profilePic3 from "../../img/profile3.jpg"
-import profilePic4 from "../../img/profile4.jpg"
+import profilePic1 from "../../img/foto1.png";
+import profilePic2 from "../../img/foto2.png";
+import profilePic3 from "../../img/foto3.png";
+import profilePic4 from "../../img/foto4.png";
 
 const Testimonials = () => {
   const clients = [
     {
       img: profilePic1,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo accusamus illum deleniti natus sunt nostrum iste magni debitis adipisci obcaecati architecto ratione repellendus aliquam numquam temporibus, magnam nemo. Delectus repellat cumque dolor ut eaque beatae totam quae quidem quos esse?",
+      review: "Sara Vicca ",
+      enterprise: "PLECO",
     },
+
     {
       img: profilePic2,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo accusamus illum deleniti natus sunt nostrum iste magni debitis adipisci obcaecati architecto ratione repellendus aliquam numquam temporibus, magnam nemo. Delectus repellat cumque dolor ut eaque beatae totam quae quidem quos esse?",
+      review: "André Boereboom",
+      enterprise: "Boereboom invitro portugal",
     },
     {
       img: profilePic3,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo accusamus illum deleniti natus sunt nostrum iste magni debitis adipisci obcaecati architecto ratione repellendus aliquam numquam temporibus, magnam nemo. Delectus repellat cumque dolor ut eaque beatae totam quae quidem quos esse?",
+      review: "Silvia Poblador",
+      enterprise: "PLECO",
     },
     {
       img: profilePic4,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo accusamus illum deleniti natus sunt nostrum iste magni debitis adipisci obcaecati architecto ratione repellendus aliquam numquam temporibus, magnam nemo. Delectus repellat cumque dolor ut eaque beatae totam quae quidem quos esse?",
+      review: "Benjamin Enrici",
+      enterprise: "Biovida",
     },
   ];
 
   return (
     <div className="t-wrapper" id="Testimonials">
+      <div className="backgroundT">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          viewBox="0 0 800 800"
+        >
+          <defs>
+            <filter
+              id="llleaves-blur-2"
+              x="-100%"
+              y="-100%"
+              width="400%"
+              height="400%"
+            >
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="2"
+              ></feGaussianBlur>
+            </filter>
+            <filter
+              id="llleaves-blur-3"
+              x="-100%"
+              y="-100%"
+              width="400%"
+              height="400%"
+            >
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="4"
+              ></feGaussianBlur>
+            </filter>
+            <filter
+              id="llleaves-blur-4"
+              x="-100%"
+              y="-100%"
+              width="400%"
+              height="400%"
+            >
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="12"
+              ></feGaussianBlur>
+            </filter>
+          </defs>
+          <g fill="#ceffce">
+            <path
+              d="M362 340H412C440 340 462 362 462 390H412C384 390 362 368 362 340Z "
+              transform="matrix(0.34270159477820905,-0.45478037671147886,0.45478037671147886,0.34270159477820905,104.81210545168813,427.283433111083)"
+              opacity="0.88"
+            ></path>
+            <path
+              d="M84 728H134C162 728 184 750 184 778H134C106 778 84 756 84 728Z "
+              transform="matrix(-0.13193548316205603,0.2481345549011343,-0.2481345549011343,-0.13193548316205603,338.52467458426963,819.0973884642762)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.43"
+            ></path>
+            <path
+              d="M209 13H259C287 13 309 35 309 63H259C231 63 209 41 209 13Z "
+              transform="matrix(-0.3650726441888899,-0.21077478939622413,0.21077478939622413,-0.3650726441888899,345.544372847866,106.46343093279987)"
+              opacity="0.65"
+            ></path>
+            <path
+              d="M461 315H511C539 315 561 337 561 365H511C483 365 461 343 461 315Z "
+              transform="matrix(0.2512582480011742,-0.4931220771219232,0.4931220771219232,0.2512582480011742,214.94552904994606,506.55757708890354)"
+              opacity="0.85"
+            ></path>
+            <path
+              d="M382 497H432C460 497 482 519 482 547H432C404 547 382 525 382 497Z "
+              transform="matrix(0.36839290404190145,-0.4390335668781502,0.4390335668781502,0.36839290404190145,43.67874354350414,519.3614049814884)"
+              opacity="0.88"
+            ></path>
+            <path
+              d="M428 414H478C506 414 528 436 528 464H478C450 464 428 442 428 414Z "
+              transform="matrix(0.3422691644090106,-0.4542065222293226,0.4542065222293226,0.3422691644090106,114.99867615382027,505.85455445006056)"
+              opacity="0.87"
+            ></path>
+            <path
+              d="M699 28H749C777 28 799 50 799 78H749C721 78 699 56 699 28Z "
+              transform="matrix(-0.23565644655030268,0.2048530236670766,-0.2048530236670766,-0.23565644655030268,936.3638887205317,-87.94512305947433)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.48"
+            ></path>
+            <path
+              d="M431 123H481C509 123 531 145 531 173H481C453 173 431 151 431 123Z "
+              transform="matrix(0.43496206365735807,-0.39164160123321967,0.39164160123321967,0.43496206365735807,213.82029039829428,272.00522477188963)"
+              opacity="0.90"
+            ></path>
+            <path
+              d="M709 158H759C787 158 809 180 809 208H759C731 208 709 186 709 158Z "
+              transform="matrix(-0.24036429588265956,0.20168959202332631,-0.20168959202332631,-0.24036429588265956,978.3456959152073,73.90426580082203)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.48"
+            ></path>
+            <path
+              d="M74 358H124C152 358 174 380 174 408H124C96 408 74 386 74 358Z "
+              transform="matrix(-0.07237983951141615,0.2524184977549997,-0.2524184977549997,-0.07237983951141615,229.6513847395804,379.42158481125244)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.40"
+            ></path>
+            <path
+              d="M432 659H482C510 659 532 681 532 709H482C454 709 432 687 432 659Z "
+              transform="matrix(0.3422691644090106,-0.4542065222293226,0.4542065222293226,0.3422691644090106,6.349001550000196,668.8154352587703)"
+              opacity="0.87"
+            ></path>
+            <path
+              d="M243 87H293C321 87 343 109 343 137H293C265 137 243 115 243 87Z "
+              transform="matrix(-0.30441056833182806,-0.32644036847988256,0.32644036847988256,-0.30441056833182806,345.6309752514788,241.7410116177703)"
+              opacity="0.69"
+            ></path>
+            <path
+              d="M142 413H192C220 413 242 435 242 463H192C164 463 142 441 142 413Z "
+              transform="matrix(-0.3240562811081812,0.1179468405503791,-0.1179468405503791,-0.3240562811081812,305.8795221338368,557.2908577397106)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.53"
+            ></path>
+            <path
+              d="M175 339H225C253 339 275 361 275 389H225C197 389 175 367 175 339Z "
+              transform="matrix(-0.3846805421217757,-0.06782955852962824,0.06782955852962824,-0.3846805421217757,286.86316267261486,519.2853680014928)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.60"
+            ></path>
+            <path
+              d="M148 94H198C226 94 248 116 248 144H198C170 144 148 122 148 94Z "
+              transform="matrix(-0.2501683404717995,0.1954529286176557,-0.1954529286176557,-0.2501683404717995,270.7922299189173,110.0703526498483)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.49"
+            ></path>
+            <path
+              d="M526 392H576C604 392 626 414 626 442H576C548 442 526 420 526 392Z "
+              transform="matrix(-0.07797090800940618,-0.4922889385449761,0.4922889385449761,-0.07797090800940618,415.6267556401629,733.0722972418287)"
+              opacity="0.77"
+            ></path>
+            <path
+              d="M266 169H316C344 169 366 191 366 219H316C288 219 266 197 266 169Z "
+              transform="matrix(-0.09472251383548028,-0.4873050889551216,0.4873050889551216,-0.09472251383548028,251.39512711471818,366.3645757939015)"
+              opacity="0.76"
+            ></path>
+            <path
+              d="M109 13H159C187 13 209 35 209 63H159C131 63 109 41 109 13Z "
+              transform="matrix(-0.3125697584496123,0.1326779907705799,-0.1326779907705799,-0.3125697584496123,213.7403552427704,28.781850288563064)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.52"
+            ></path>
+            <path
+              d="M223 257H273C301 257 323 279 323 307H273C245 307 223 285 223 257Z "
+              transform="matrix(-0.26858531165554966,-0.36967596706681405,0.36967596706681405,-0.26858531165554966,242.0751673691235,458.66259689610524)"
+              opacity="0.70"
+            ></path>
+            <path
+              d="M-5 151H45C73 151 95 173 95 201H45C17 201 -5 179 -5 151Z "
+              transform="matrix(0.08181986650720344,0.18377042901111282,-0.18377042901111282,0.08181986650720344,73.6617015131317,153.33003418923212)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.31"
+            ></path>
+            <path
+              d="M-17 74H33C61 74 83 96 83 124H33C5 124 -17 102 -17 74Z "
+              transform="matrix(-0.025710264811396145,0.24461682963019757,-0.24461682963019757,-0.025710264811396145,58.06550487216562,93.47296083853169)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.38"
+            ></path>
+            <path
+              d="M513 607H563C591 607 613 629 613 657H563C535 657 513 635 513 607Z "
+              transform="matrix(0.008981329740201122,-0.5145400362093321,0.5145400362093321,0.008981329740201122,232.75420847196887,916.0098399900467)"
+              opacity="0.79"
+            ></path>
+            <path
+              d="M57 269H107C135 269 157 291 157 319H107C79 319 57 297 57 269Z "
+              transform="matrix(-0.025723023635253892,0.2447382217303874,-0.2447382217303874,-0.025723023635253892,181.70540071770606,275.3755792236132)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.38"
+            ></path>
+            <path
+              d="M62 86H112C140 86 162 108 162 136H112C84 136 62 114 62 86Z "
+              transform="matrix(-0.04851450792406325,0.24958550657356304,-0.24958550657356304,-0.04851450792406325,145.13761611716058,88.43153364333196)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.39"
+            ></path>
+            <path
+              d="M-10 528H40C68 528 90 550 90 578H40C12 578 -10 556 -10 528Z "
+              transform="matrix(0.07617038976841908,0.18852833033540925,-0.18852833033540925,0.07617038976841908,141.2093510847446,503.33664124464786)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.31"
+            ></path>
+            <path
+              d="M498 498H548C576 498 598 520 598 548H548C520 548 498 526 498 498Z "
+              transform="matrix(0.10101140459288198,-0.5196586271571144,0.5196586271571144,0.10101140459288198,220.8642882799299,754.9439630800214)"
+              opacity="0.81"
+            ></path>
+            <path
+              d="M701 618H751C779 618 801 640 801 668H751C723 668 701 646 701 618Z "
+              transform="matrix(-0.2682623124552266,0.18094521449889456,-0.18094521449889456,-0.2682623124552266,1068.8127695766643,679.6028108200409)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.50"
+            ></path>
+            <path
+              d="M288 540H338C366 540 388 562 388 590H338C310 590 288 568 288 540Z "
+              transform="matrix(0.10104664798106276,-0.5198399386713163,0.5198399386713163,0.10104664798106276,10.136667633107095,683.6145431616045)"
+              opacity="0.81"
+            ></path>
+            <path
+              d="M704 409H754C782 409 804 431 804 459H754C726 459 704 437 704 409Z "
+              transform="matrix(-0.2682623124552266,0.18094521449889456,-0.18094521449889456,-0.2682623124552266,1034.800006683761,413.99315187340187)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.50"
+            ></path>
+            <path
+              d="M503 725H553C581 725 603 747 603 775H553C525 775 503 753 503 725Z "
+              transform="matrix(0.008981329740201122,-0.5145400362093321,0.5145400362093321,0.008981329740201122,162.1282974966697,1027.80464271861)"
+              opacity="0.79"
+            ></path>
+            <path
+              d="M134 260H184C212 260 234 282 234 310H184C156 310 134 288 134 260Z "
+              transform="matrix(-0.3240562811081812,0.1179468405503791,-0.1179468405503791,-0.3240562811081812,277.2412052807634,355.6538214545619)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.53"
+            ></path>
+            <path
+              d="M623 348H673C701 348 723 370 723 398H673C645 398 623 376 623 348Z "
+              transform="matrix(-0.384518144093487,-0.07474275571795375,0.07474275571795375,-0.384518144093487,903.90166309212,566.7271423450534)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.60"
+            ></path>
+            <path
+              d="M77 565H127C155 565 177 587 177 615H127C99 615 77 593 77 565Z "
+              transform="matrix(-0.07237983951141615,0.2524184977549997,-0.2524184977549997,-0.07237983951141615,285.1191532933997,600.6469560968505)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.40"
+            ></path>
+            <path
+              d="M185 730H235C263 730 285 752 285 780H235C207 780 185 758 185 730Z "
+              transform="matrix(-0.3745909203629472,-0.1746746148405714,0.1746746148405714,-0.3745909203629472,191.14953208066117,1078.8646793615594)"
+              opacity="0.63"
+            ></path>
+            <path
+              d="M61 463H111C139 463 161 485 161 513H111C83 513 61 491 61 463Z "
+              transform="matrix(-0.025723023635253892,0.2447382217303874,-0.2447382217303874,-0.025723023635253892,233.28750782794225,473.3868929219309)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.38"
+            ></path>
+            <path
+              d="M-11 326H39C67 326 89 348 89 376H39C11 376 -11 354 -11 326Z "
+              transform="matrix(0.07617038976841908,0.18852833033540925,-0.18852833033540925,0.07617038976841908,102.20279874676031,316.91158830820393)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.31"
+            ></path>
+            <path
+              d="M602 733H652C680 733 702 755 702 783H652C624 783 602 761 602 733Z "
+              transform="matrix(-0.37905488507433394,-0.15314811460096225,0.15314811460096225,-0.37905488507433394,783.0575142009363,1145.1761736061726)"
+              opacity="0.63"
+            ></path>
+            <path
+              d="M228 453H278C306 453 328 475 328 503H278C250 503 228 481 228 453Z "
+              transform="matrix(-0.26858531165554966,-0.36967596706681405,0.36967596706681405,-0.26858531165554966,175.96160438230572,709.1536978159271)"
+              opacity="0.70"
+            ></path>
+            <path
+              d="M700 515H750C778 515 800 537 800 565H750C722 565 700 543 700 515Z "
+              transform="matrix(-0.2682623124552266,0.18094521449889456,-0.18094521449889456,-0.2682623124552266,1048.9071501708231,549.1527378516514)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.50"
+            ></path>
+            <path
+              d="M82 177H132C160 177 182 199 182 227H132C104 227 82 205 82 177Z "
+              transform="matrix(-0.07237983951141615,0.2524184977549997,-0.2524184977549997,-0.07237983951141615,192.54267536201684,183.30148587764612)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.40"
+            ></path>
+            <path
+              d="M551 280H601C629 280 651 302 651 330H601C573 330 551 308 551 280Z "
+              transform="matrix(-0.24544883373933898,-0.3928002437459201,0.3928002437459201,-0.24544883373933898,628.7106747348371,615.9348407817963)"
+              opacity="0.71"
+            ></path>
+            <path
+              d="M486 202H536C564 202 586 224 586 252H536C508 252 486 230 486 202Z "
+              transform="matrix(0.10101140459288198,-0.5196586271571144,0.5196586271571144,0.10101140459288198,363.8953787735503,482.607435313629)"
+              opacity="0.81"
+            ></path>
+            <path
+              d="M605 453H655C683 453 705 475 705 503H655C627 503 605 481 605 453Z "
+              transform="matrix(-0.37905488507433394,-0.15314811460096225,0.15314811460096225,-0.37905488507433394,830.0761509444288,759.5002501291619)"
+              opacity="0.63"
+            ></path>
+            <path
+              d="M403 244H453C481 244 503 266 503 294H453C425 294 403 272 403 244Z "
+              transform="matrix(0.36042836270472645,-0.4450919602386507,0.4450919602386507,0.36042836270472645,169.99621439056187,373.6714284205374)"
+              opacity="0.88"
+            ></path>
+            <path
+              d="M574 172H624C652 172 674 194 674 222H624C596 222 574 200 574 172Z "
+              transform="matrix(-0.3090455752937956,-0.320026061559571,0.320026061559571,-0.3090455752937956,753.7993048560929,457.57824074605)"
+              opacity="0.68"
+            ></path>
+            <path
+              d="M6 7H56C84 7 106 29 106 57H56C28 57 6 35 6 7Z "
+              transform="matrix(-0.3301315666802655,0.10726624836264537,-0.10726624836264537,-0.3301315666802655,77.91988768169952,36.55730022546035)"
+              filter="url(#llleaves-blur-2)"
+              opacity="0.53"
+            ></path>
+            <path
+              d="M3 632H53C81 632 103 654 103 682H53C25 682 3 660 3 632Z "
+              transform="matrix(0.06498204607648381,0.19999417342155795,-0.19999417342155795,0.06498204607648381,180.95212349590994,603.7071045364075)"
+              filter="url(#llleaves-blur-3)"
+              opacity="0.32"
+            ></path>
+            <path
+              d="M518 88H568C596 88 618 110 618 138H568C540 138 518 116 518 88Z "
+              transform="matrix(0.054590423476778276,-0.5193931846684198,0.5193931846684198,0.054590423476778276,478.3012095976585,401.8466110387865)"
+              opacity="0.80"
+            ></path>
+          </g>
+        </svg>
+      </div>
+
       <div className="t-heading">
-        <span>Professionals</span>
-        
-            <span style={{paddingLeft:"3rem",fontSize:"2rem"}}>Testimonials.</span>
-        
-        
+        <span>Professional</span>
+
+        <span style={{ paddingLeft: "3rem", fontSize: "2rem" }}>
+          References.
+        </span>
+
         {/* <div
           className="blur"
           style={{
@@ -63,15 +378,21 @@ const Testimonials = () => {
         ></div> */}
       </div>
       {/* slider */}
-      <Swiper modules={[Pagination]} grabCursor={true} spaceBetween={30} slidesPerView={2} pagination={{clickable: true}}>
-        {clients.map((client, i)=>(
-
-        <SwiperSlide key={i}>
+      <Swiper
+        modules={[Pagination]}
+        grabCursor={true}
+        spaceBetween={30}
+        slidesPerView={2}
+        pagination={{ clickable: true }}
+      >
+        {clients.map((client, i) => (
+          <SwiperSlide key={i}>
             <div className="testimonial">
-            <img src={client.img} alt="client" />
-            <span>{client.review}</span>
+              <img src={client.img} alt="client" />
+              <span>{client.review}</span>
+              <span>{client.enterprise}</span>
             </div>
-        </SwiperSlide>
+          </SwiperSlide>
         ))}
       </Swiper>
     </div>

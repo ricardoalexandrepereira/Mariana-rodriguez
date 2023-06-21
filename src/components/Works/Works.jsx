@@ -12,17 +12,12 @@ const Works = () => {
     <div className="works">
       {/*left side*/}
       <div className="awesome">
-        <span>Work for All these</span>
+        <span>let's be conscious !</span>
 
-        <span style={{ fontSize: "2rem" }}>Brands</span>
+        <span style={{ fontSize: "2rem" }}>Planet</span>
 
         <span>
-          Biodiversity is the basis of life. It is as essential for humans as it
-          is for the environment and climate protection. It provides people with
-          food, fresh <br />
-          water and clean air and plays an important role in maintaining the
-          balance of nature. It helps combat climate change and prevents the
-          spread of infectious diseases.
+        More than a century of burning fossil fuels as well as unequal and unsustainable energy and land use have led to global warming of 1.1°C above pre -industrial levels. This has resulted in more frequent and more intense extreme weather events that have caused increasingly dangerous impacts on nature and people in every region of the world. But there are multiple, feasible and effective options to reduce greenhouse gas emissions.Taking effective and equitable climate action will not only reduce losses and damages for nature and people, it will also provide wider benefits. 
         </span>
 
         {/*  <div className="blur s-blur1" style={{background: "#35bb299e",left:"10rem",top:"-8rem", width:"21rem", height:"11rem", zIndex:"-9"}}></div> */}

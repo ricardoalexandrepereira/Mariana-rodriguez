@@ -9,7 +9,14 @@
     position: relative;
     background-color: white;
 }
-
+.backgroundT{
+    position: absolute;
+    top: 0;
+    right:0;
+    z-index:0;
+    width: 40%;
+    height: 300px;
+}
 .t-heading{
     align-self: start;
     display: flex;
@@ -27,6 +34,7 @@
     margin-top: 10px;
     letter-spacing: 2px;
     margin-left: -3rem;
+    
 }
 .background{
     background: #fcfcfc00;
@@ -55,11 +63,12 @@ background-clip: text;
     padding: 2rem;
     width: 32rem;
     height: 15rem;
-    background: rgba(255,255,255, 0.26);
+    background: rgba(255, 255, 255, 0.719);
     border: 7px solid var(--blueCard);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
     gap: 2rem;
+    
 }
 
 .testimonial img{

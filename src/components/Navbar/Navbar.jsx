@@ -2,13 +2,13 @@ import React from 'react'
 import "./Navbar.css"
 /* import Toggle from '../Toggle/Toggle' */
 import {Link} from 'react-scroll'
-import leaf from "../../img/leaf2.png"
+/* import leaf from "../../img/leaf2.png" */
 
 const Navbar = () => {
   return (
     <div className="n-wrapper">
       <div className="n-left">
-        <div><img src={leaf} alt="leaf" style={{width:"3rem"}} /></div>
+        {/* <div><img src={leaf} alt="leaf" style={{width:"3rem"}} /></div> */}
         {/* <Toggle/> */}
       </div>
       <div className="n-right">

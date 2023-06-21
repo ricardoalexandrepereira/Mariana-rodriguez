@@ -3,7 +3,27 @@
     height: 77vh;
     margin-top: 2rem;
     padding: 4rem 3rem 0 3rem;
+    
 }
+
+
+.vector{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:0;
+    width: 100%;
+    height: 77vh;
+    
+}
+.vector svg{
+    
+    width: 1000px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
 .i-left{
     display: flex;
     flex-direction: column;

@@ -1,41 +1,19 @@
 .footer{
     display: flex;
     align-items: center;
-    margin: -0.5rem -3.5rem;
+    margin: -2.5rem -3.5rem;
     position: relative;
-    margin-top: -10rem;
-    height: 30vh;
+    justify-content: center;
+    height:200px;
     display: flex;
     bottom: 0;
     left: 0;
-    margin-top: 2rem;
+    background-color: #fff;
 }
 
 
-.f-content{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 12rem;
-    gap:4rem;
-    color: #fff;
-    font-family: paragraph;
-    
-}
-.f-content span p{
-    font-weight: 100;
-    letter-spacing: 3px;
-    
-}
 
-.f-icons{
-    display: flex;
-    gap: 2rem;
-    cursor: pointer;
-}
+
 
 @media screen and (max-width:450px) {
     .f-icons{
