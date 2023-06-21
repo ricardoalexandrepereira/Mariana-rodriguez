@@ -12,7 +12,7 @@ const Works = () => {
     <div className="works">
       {/*left side*/}
       <div className="awesome">
-        <span>let's be conscious !</span>
+        <span>let's be conscious!</span>
 
         <span style={{ fontSize: "2rem" }}>Planet</span>
 

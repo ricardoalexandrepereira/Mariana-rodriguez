@@ -46,6 +46,8 @@ textarea{
     margin-bottom:2rem;
    
 }
-
+#email{
+    font-size: .8rem;
+}
 
 }

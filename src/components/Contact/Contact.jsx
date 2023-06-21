@@ -34,7 +34,7 @@ const Contact = () => {
                     <span style={{fontSize:"3rem"}}> Contact me </span>
                     <div style={{display:"flex", alignItems:"center", gap:"10px"}}>
                     <p><small>Personal email :</small></p>
-                    <span>marianarodriguez1300@gmail.com</span>
+                    <span id='email'>marianarodriguez1300@gmail.com</span>
                     </div>
                     
                     <p>+(351) 931937684 </p>

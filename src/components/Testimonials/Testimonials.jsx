@@ -14,23 +14,23 @@ const Testimonials = () => {
     {
       img: profilePic1,
       review: "Sara Vicca ",
-      enterprise: "PLECO",
+      enterprise: "Company : PLECO",
     },
 
     {
       img: profilePic2,
       review: "André Boereboom",
-      enterprise: "Boereboom invitro portugal",
+      enterprise: "Company : Boereboom invitro portugal",
     },
     {
       img: profilePic3,
       review: "Silvia Poblador",
-      enterprise: "PLECO",
+      enterprise: "Company : PLECO",
     },
     {
       img: profilePic4,
       review: "Benjamin Enrici",
-      enterprise: "Biovida",
+      enterprise: "Company : Biovida",
     },
   ];
 
