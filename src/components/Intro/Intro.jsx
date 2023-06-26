@@ -4,6 +4,7 @@ import "./Intro.css";
 /* import LinkedInF from "../../img/linkedinF.png" */
 /* import InstagramF from "../../img/instagramF.png" */
 import mariana from "../../img/marianarodriguez-removebg-preview.png";
+import { Link } from "react-scroll";
 /* import leaf1 from "../../img/leaf1.png" */
 /* import leaf2 from "../../img/leaf2.png" */
 /* import grass from "../../img/grass.png" */
@@ -272,7 +273,9 @@ const Intro = () => {
             Energy & Climate, University of Antwerp
           </span>
         </div>
-        <div className="button i-button">Hire me</div>
+        <Link spy={true} to="experience" smooth={true} activeClass="activeClass">
+            <div className="button i-button" style={{fontSize:".7rem"}}>Looking for opportunities</div>
+        </Link>
 
         {/* <a href="/"><img src={InstagramF} alt="instagram" /></a>
                 <a href="/"><img src={FacebookF} alt="instagram" /></a> */}

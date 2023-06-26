@@ -7,6 +7,7 @@ import icon4 from "../../img/icon4.png";
 import earth from "../../img/earth.png";
 import { motion } from "framer-motion";
 
+
 const Works = () => {
   return (
     <div className="works">
@@ -52,6 +53,8 @@ const Works = () => {
         <div className="w-backCircle blueCircle"></div>
         <div className="w-backCircle greenCircle"></div>
       </div>
+
+     
     </div>
   );
 };

@@ -85,6 +85,8 @@ position: absolute;
     top:8rem;
 }
 
+
+
 @media screen and (max-width:1036px){
     .works{
         flex-direction: column;

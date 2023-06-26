@@ -16,16 +16,7 @@ const Services = () => {
           <span style={{fontSize:"2rem"}}>Who Am I? </span>
         
         <span style={{ marginBottom: "3rem" }}>
-          I am Argentinian who emigrate to Europe following my heart and new
-          adventures. I love plants and animals in that sense, I found myself
-          hooked by how people in Europe take hands on actions to protect the
-          environment as we all live in the same planet, and we do not have a
-          planet B. What I believe? I believed we can use the know-how found in
-          biotechnology and used as a tool that can aid in the conservation and
-          restoration of ecosystems and endangered species, identify, and
-          monitor endangered species, and restore damaged habitats. What drives
-          me the most, is to learn different technologies we can use to have a
-          positive impact on the environment while having profitable business.
+        I am Argentinian who emigrate to Europe following my heart and new adventures. I love plants and animals in that sense, I found myself hooked by how people in Europe take hands on actions to protect the environment as we all live in the same planet, and we do not have a planet B. What I believe? I believed we can use the know-how found in biotechnology to the conservation, restoration of ecosystems and endangered species. What drives me the most, is to learn how different technologies can be use to have a positive impact on the environment while having profitable business. 
         </span>
         <a style={{ textDecoration: "none" }} download href="/">
           <div className="button i-button">Download CV</div>
